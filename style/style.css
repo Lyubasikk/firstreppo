@@ -1,0 +1,258 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background: #313030;
+}
+
+.maincart{
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 118px;
+  background-color: #443c3c;
+}
+header > * {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  width: 1%;
+}
+h1 {
+  margin-left: 85px;
+  margin-top: 37px;
+}
+nav > * {
+  position: relative;
+  margin-right: -917px;
+  margin-left: 936px;
+  top: 21px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+nav > *:hover {
+  color: #4200ff;
+}
+nav {
+  width: 100%;
+  align-items: center;
+
+}
+.main_img {
+  margin-left: 954px;
+  margin-top: 149px;
+}
+.ing {
+    margin-top: -28px;
+    margin-left: -167px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+}
+.title_text {
+  font-family: "Lusitana", serif;
+
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 79px;
+  width: 453px;
+  color: #6b6b6b;
+  text-shadow: rgb(78, 73, 73) 1px 0 10px;
+  -webkit-text-stroke: 1.5px black;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.5px;
+  stroke: #000000;
+}
+
+.subtitle_text {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 79px;
+  color: #6b6b6b;
+  text-shadow: rgb(20, 20, 20) 1px 6px 6px;
+  -webkit-text-stroke: 1.5px black;
+  font-family: "Lusitana", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 59px;
+  letter-spacing: -0.5px;
+  width: 630px;
+}
+
+.subtitle_text2 {
+  position: absolute;
+  color: #959595;
+  font-family: "Scope One", "serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  margin-top: 517px;
+  margin-left: 79px;
+  width: 824px;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  width: 474px;
+  height: 99px;
+  background: #4F4C4C;
+  margin-top: 888px;
+  margin-left: 63px;
+  z-index: 1;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  justify-content: center;
+  line-height: 93px;
+}
+.btn:hover {
+  background: #1e9eaf;
+}
+.work {
+  position: absolute;
+  margin-top: 548px;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 42px;
+
+  padding: 20px;
+  position: absolute;
+  margin-left: -628px;
+  margin-top: 754px;
+}
+
+.grid-container > img {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row: 1;
+}
+
+.item1{
+  margin-top: -175px;
+}
+
+.item3{
+  margin-top: -180px;
+}
+
+
+
+.text_visual{
+  position: absolute;
+  margin-top: -233px;
+  margin-left: 362px;
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: "Scope One", "serif";
+}
+
+
+.text_personal{
+  position: absolute;
+  margin-top: 1924px;
+  margin-left: 394px;
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: "Scope One", "serif";
+}
+
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 10px;
+  position: absolute;
+  padding: 20px;
+  margin-top: 2865px;
+  margin-left: -628px;
+}
+
+.grid-container > img {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 10px;
+  position: absolute;
+  padding: 20px;
+  margin-top: 4058px;
+  margin-left: -628px;
+}
+
+.grid-container > img {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+footer{
+  background: #443C3C;
+  margin-top: 5130px;
+  height: 238px;
+}
+
+footer > *{
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+  font-family: "Scope One", "serif";
+}
+
+.contact_mobile{
+  margin-top: 51px;
+  position: absolute;
+  margin-left: 1081px;
+}
+
+.contact_mail{
+  position: absolute;
+  margin-top: 113px;
+  margin-left: 1081px;
+}
+
+.social_link{
+  margin-left: 498px;
+  position: absolute;
+  margin-top: 83px;
+}
+
+
+
+.icon_footer{
+position: absolute;
+margin-left: 797px;
+margin-top: 176px;
+}
